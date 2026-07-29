@@ -9,13 +9,14 @@ Each skill is a self-contained directory with a `SKILL.md` file following the [A
 | Skill | Description |
 |-------|-------------|
 | [analyze-session](skills/analyze-session/) | Analyze an AI coding agent session to find inefficiencies — failed tool calls, detours, re-work — and recommend concrete repo improvements |
+| [de-spoon](skills/de-spoon/) | Review and tighten proposed implementation work before coding by separating current responsibility from existing contracts, false assumptions, and speculative machinery |
 
 ## Installing
 
 ### pi (custom agent harness)
 
 ```bash
-cp -r skills/analyze-session ~/.pi/agent/skills/
+cp -r skills/<skill-name> ~/.pi/agent/skills/
 ```
 
 ### Claude Code
